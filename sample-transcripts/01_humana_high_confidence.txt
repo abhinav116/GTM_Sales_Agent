@@ -1,0 +1,61 @@
+CALL TRANSCRIPT
+Date: June 2, 2026 | Duration: 41 minutes | Platform: Zoom
+
+Attendees:
+- Sarah Chen, Account Executive, RAAPID INC
+- Dr. Patricia Alvarez, Chief Medical Officer, Humana Medicare Advantage Division
+- James Holloway, VP of Risk Adjustment Operations, Humana Medicare Advantage Division
+- Sandra Ng, Director of Health Informatics, Humana Medicare Advantage Division
+
+---
+
+Sarah Chen: Good morning everyone. Thank you for blocking this time. I want to start by making sure we solve the right problem before we talk about RAAPID at all. James, you mentioned on our intro call that RAF capture has become a board-level conversation. Can you walk me through what triggered that?
+
+James Holloway: Sure. We had our largest RADV audit in three years last cycle. CMS pulled 400 charts across four of our regional plans. The aggregate error rate came back at 11.3 percent. That is the highest we have seen in five years and it is entirely unacceptable given where the extrapolation rules are heading.
+
+Sarah Chen: Eleven percent across 400 charts. Was the error distribution consistent across all four plans or concentrated?
+
+James Holloway: Concentrated. Two of the four plans were clean -- below 3 percent. The other two, our Florida and Texas books, were the problem. Both use different retrospective coding vendors and neither has prospective coding assist at point of care.
+
+Dr. Patricia Alvarez: The financial exposure is what moved this up to my desk and then to the board. Our actuaries modeled the extrapolation scenario. At 11 percent, we are looking at a potential CMS recoupment in the range of $28 to $34 million annually if extrapolation is applied to the full Florida and Texas membership. That is not a risk we can carry.
+
+Sarah Chen: That is a specific and urgent number. Do you have a sense of how that breaks down between undercoding, overcoding, and documentation gaps?
+
+James Holloway: Roughly 70 percent is documentation -- physicians capturing the diagnosis in clinical notes but not in structured fields CMS can validate. About 20 percent is genuine undercoding where the condition is present but not coded at all. Ten percent is overcoding, which is the more concerning category from a compliance posture.
+
+Sandra Ng: The prospective side is equally painful. We do not have any real-time HCC prompting for our physicians in Florida or Texas. Clinicians are finishing encounters without guidance on relevant chronic conditions and the opportunities are gone. On the retrospective side, our internal team does chart review but we are only getting to about 30 percent of the charts that need review before the submission deadline. The rest go uncoded.
+
+Sarah Chen: So the scope is retrospective accuracy for RADV defensibility and prospective capture at point of care across two specific regional plans to start.
+
+James Holloway: Correct. We want to start with Florida and Texas, validate the approach, and then expand to the remaining six plans if the results support it.
+
+Sarah Chen: What does the technology landscape look like today in Florida and Texas?
+
+Sandra Ng: Florida uses Cotiviti for retrospective. Texas uses an in-house team with no vendor support. Neither plan has prospective coding assist. The Cotiviti contract in Florida is up for renewal in October 2026. Texas is month-to-month so we have flexibility there.
+
+Sarah Chen: October is close. What does your evaluation process look like given that timeline?
+
+Dr. Patricia Alvarez: We need to move quickly. We have budget approved for this fiscal year -- the board authorized $2.4 million annually for a combined retrospective and prospective solution. We need a vendor selected by August to allow time for implementation before Cotiviti contract expiry.
+
+Sarah Chen: August selection, implementation through September, live by October. That is achievable. What does the decision process look like on your side?
+
+Dr. Patricia Alvarez: I am the final approver. James owns the operational evaluation and Sandra owns the technical review. We do not need a formal RFP -- we are doing direct vendor evaluation. We have three vendors we are speaking with including RAAPID.
+
+James Holloway: Our evaluation criteria are clear: accuracy on a test set of our RADV audit charts, integration quality with Epic, and prospective HCC recall rate on a sample of our Florida members.
+
+Sarah Chen: All three are areas we can demonstrate. Can we scope a structured POC against your RADV audit sample from the Florida plan? That gives you ground truth validation.
+
+Dr. Patricia Alvarez: Yes. That is exactly how we want to be evaluated. We have 180 charts from the Florida RADV sample where we know the ground truth. We want to run any vendor against those before we make a decision.
+
+Sarah Chen: Perfect. I will have a formal POC proposal to you by end of this week -- June 6th. The proposal will include a 60-day POC timeline, test methodology using your 180-chart RADV sample, and two commercial scenarios: retrospective-only and full retrospective plus prospective.
+
+James Holloway: One more thing -- we need two reference calls with Medicare Advantage plans that have been through a RADV audit cycle with RAAPID. Plans with comparable membership size.
+
+Sarah Chen: I can arrange that. I have two plans in the 300,000 to 500,000 member range that went through RADV this cycle and would be willing to speak with you.
+
+Dr. Patricia Alvarez: Good. Send the proposal Friday, we will review by end of next week, and if it looks right we want to schedule the POC kickoff by June 20th.
+
+Sarah Chen: June 20th kickoff is confirmed on our end. I will have the proposal to you Friday June 6th.
+
+---
+[END OF TRANSCRIPT]

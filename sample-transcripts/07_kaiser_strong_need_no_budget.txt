@@ -1,0 +1,52 @@
+CALL TRANSCRIPT
+Date: June 8, 2026 | Duration: 20 minutes | Platform: Zoom
+
+Attendees:
+- Sarah Chen, Account Executive, RAAPID INC
+- Dr. Naomi Watkins, Medical Director of Quality, Kaiser Permanente Northwest
+- Josh Elman, Risk Adjustment Program Manager, Kaiser Permanente Northwest
+
+---
+
+Sarah Chen: Dr. Watkins, Josh, thanks for joining. What is driving the conversation on your end right now?
+
+Dr. Naomi Watkins: We serve 190,000 Medicare Advantage members in the Pacific Northwest. Our RAF scores have been trending below our actuarial expectations for three consecutive years. The gap is widening. Last year our risk scores were 6.2 percent below our projected target based on our members' clinical profiles.
+
+Sarah Chen: Has that gap been quantified in revenue terms?
+
+Josh Elman: Yes. Our finance team modeled it at approximately $14 million in annual missed RAF capture. The interesting thing is that our internal quality review suggests the clinical documentation is actually reasonably good -- physicians are capturing conditions. The problem seems to be in the coding and submission layer, not the clinical documentation.
+
+Sarah Chen: So the documentation exists but the HCC coding is not picking it up accurately?
+
+Josh Elman: That is our hypothesis. We do not have vendor support on retrospective -- it is all internal. We have six coders and they are working through charts but the coverage is thin. We are getting to maybe 25 percent of what should be reviewed.
+
+Dr. Naomi Watkins: There is also a prospective problem. Physicians get no real-time HCC guidance during encounters. The EMR does not surface chronic condition reminders in any structured way. We use Epic but we have not activated the risk adjustment module.
+
+Sarah Chen: What would the process look like for bringing in an external solution?
+
+Dr. Naomi Watkins: That is a complicated question for Kaiser. We have a strong preference for building internally when we can. My role is to evaluate whether there is a vendor solution that makes more sense than continuing to scale our internal team.
+
+Josh Elman: I should be transparent -- this is a very early conversation for us. I am not sure there is a formal budget process underway for this. I know the $14 million number has been raised at the VP level but I do not know what has happened with it after that.
+
+Sarah Chen: Who would own a budget decision if this were to move forward?
+
+Dr. Naomi Watkins: That would go above me. Probably our VP of Health Plan Operations. She would need to approve any significant external vendor engagement. I have not had that conversation with her about RAAPID specifically.
+
+Sarah Chen: Is that a conversation you are positioned to have, or does something need to happen first to make it ready?
+
+Dr. Naomi Watkins: I would want more information about what an engagement would actually look like before I bring it to her. What would the cost range be for a plan our size?
+
+Sarah Chen: For 190,000 members with both retrospective and prospective, typically $900,000 to $1.3 million annually. There is a retrospective-only option that would be lower.
+
+Dr. Naomi Watkins: That is a meaningful number. I am not in a position to say whether that is achievable without knowing more about how Kaiser's internal evaluation would work. This is genuinely exploratory for us today.
+
+Sarah Chen: That is completely fine. What would be useful for me to send you to help you build the internal case?
+
+Josh Elman: Case studies from integrated health systems would be helpful. Kaiser's structure is different from a standalone insurance plan. Evidence from other integrated systems would carry more weight internally than standard MA plan references.
+
+Sarah Chen: I have two integrated system case studies I can share. I will send those along with a cost-benefit framework that you can use to size the opportunity for your VP conversation.
+
+Dr. Naomi Watkins: That would be helpful. Let us reconnect in a month or so once I have had a chance to review.
+
+---
+[END OF TRANSCRIPT]

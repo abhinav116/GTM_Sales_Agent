@@ -1,0 +1,39 @@
+CALL TRANSCRIPT
+Date: June 11, 2026 | Duration: 11 minutes | Platform: Phone
+
+Attendees:
+- Daniel Okafor, Account Executive, RAAPID INC
+- Unidentified caller, Molina Healthcare (name not given at start of call)
+
+---
+
+Daniel Okafor: Hi, thank you for picking up. This is Daniel Okafor calling from RAAPID. Am I speaking with someone from the risk adjustment team at Molina?
+
+Unidentified caller: Yeah, this is someone from that team. Who are you again?
+
+Daniel Okafor: Daniel Okafor, account executive at RAAPID. We build AI tools for Medicare Advantage risk adjustment. I was hoping to have a brief conversation to understand if there is anything relevant happening at Molina.
+
+Unidentified caller: We get a lot of calls like this. I am not really the right person to talk to. I am pretty junior.
+
+Daniel Okafor: I appreciate you being honest about that. Can you tell me who the right person would be?
+
+Unidentified caller: I honestly do not know. There is a whole team above me. I do not know who is evaluating vendors or if anyone is.
+
+Daniel Okafor: Is there anything you can share about how risk adjustment is going at Molina in general?
+
+Unidentified caller: I really should not be talking about internal stuff with vendors. I am just a coordinator.
+
+Daniel Okafor: Understood, completely fair. Is there an email address for a general inquiry that might route to the right team?
+
+Unidentified caller: There might be something on the website. I do not have a specific contact to give you.
+
+Daniel Okafor: Can I ask your name so I can note the call properly?
+
+Unidentified caller: I would rather not. Sorry.
+
+Daniel Okafor: No problem at all. I appreciate your time. I will try reaching out through the website. Have a good day.
+
+Unidentified caller: You too.
+
+---
+[END OF TRANSCRIPT]

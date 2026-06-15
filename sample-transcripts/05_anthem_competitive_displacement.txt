@@ -1,0 +1,61 @@
+CALL TRANSCRIPT
+Date: June 6, 2026 | Duration: 37 minutes | Platform: Zoom
+
+Attendees:
+- Sarah Chen, Account Executive, RAAPID INC
+- Dr. Thomas Reed, VP of Medical Management, Anthem Medicare Advantage
+- Angela Voss, Director of Risk Adjustment, Anthem Medicare Advantage
+- Brian Nakamura, IT Director, Anthem Medicare Advantage
+
+---
+
+Sarah Chen: Good morning everyone. Thomas, I know you have a tight calendar so I want to be efficient. Can you give me the thirty-second version of what is driving this conversation?
+
+Dr. Thomas Reed: Inovalon. We have been with them for four years on retrospective coding. The contract is up December 2026 and frankly the relationship has deteriorated. Accuracy has dropped two years in a row. We went from 94 percent accuracy in year one to 88 percent last year on our internal audit. And their responsiveness on issues has been poor.
+
+Sarah Chen: What size membership are we talking about?
+
+Dr. Thomas Reed: 280,000 Medicare Advantage members across our Southeast region. Ohio, Tennessee, Georgia, and the Carolinas.
+
+Angela Voss: The accuracy drop is the headline but the real issue is RADV defensibility. We had a RADV audit two cycles ago, came back clean. But with Inovalon's accuracy declining, I am not confident we would be as clean today. Our last internal validation showed an 8 percent error rate on the charts Inovalon coded. That is a significant exposure on a 280,000-member book.
+
+Sarah Chen: Eight percent error rate. Is there a revenue number attached?
+
+Angela Voss: Our actuaries put it at $18 to $22 million in annual RAF capture at risk between missed codes and RADV exposure. That number is what got this to Thomas's desk.
+
+Sarah Chen: Thomas, I want to ask about the decision process directly. You are evaluating Inovalon's renewal versus replacement. Who makes that call?
+
+Dr. Thomas Reed: I make the recommendation. Our CMO has to approve any new vendor at this contract value. Budget is already allocated -- we are spending $1.6 million annually with Inovalon and the board has approved equivalent spend for a replacement if we decide to switch. So budget is not the constraint. Performance is.
+
+Sarah Chen: Is the CMO involved in these evaluation conversations or does that come at the recommendation stage?
+
+Dr. Thomas Reed: Recommendation stage. She trusts my evaluation. I need technical and clinical validation before I bring her a recommendation.
+
+Brian Nakamura: From the IT side, I want to understand the integration approach. We run Epic across all four states. Any vendor needs to integrate directly into the Epic workflow -- I am not interested in a parallel system that creates extra steps for physicians.
+
+Sarah Chen: Epic native integration is core to our product. We are embedded in the physician workflow, not a separate portal. HCC prompts surface inside the encounter, not in a separate application.
+
+Brian Nakamura: That is the right answer. What does implementation look like? We went through a painful implementation with Inovalon that took eight months and still has issues.
+
+Sarah Chen: Our typical Epic implementation is 90 days for retrospective and 120 days for prospective plus retrospective combined. We have a dedicated implementation team and we do a phased go-live state by state.
+
+Angela Voss: The phased approach is important. Going live across all four states simultaneously is too risky.
+
+Sarah Chen: Agreed. We would recommend starting with Ohio or Tennessee, running 60 days with both Inovalon and RAAPID in parallel, then migrating state by state.
+
+Dr. Thomas Reed: What does a POC look like? I want to validate accuracy before I make any commitment.
+
+Sarah Chen: Structured against your Inovalon-coded charts where you have your internal audit ground truth. That is the most defensible comparison.
+
+Dr. Thomas Reed: That is exactly right. Angela, can we structure that?
+
+Angela Voss: Yes. We have 300 charts from last year's internal validation. We know what Inovalon found and what our internal team corrected. That is the right test set.
+
+Sarah Chen: I will send a formal POC proposal by this Friday June 8th. The proposal will include a 90-day timeline, state-by-state rollout plan, and two commercial scenarios for the Southeast region.
+
+Dr. Thomas Reed: Good. We need a vendor decision by September 1st to allow time for implementation before Inovalon's contract expires in December. Your proposal Friday, evaluation through July, decision by September 1st. Can you work to that?
+
+Sarah Chen: Yes. I will confirm the timeline in the proposal.
+
+---
+[END OF TRANSCRIPT]

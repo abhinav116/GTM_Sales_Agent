@@ -1,0 +1,63 @@
+CALL TRANSCRIPT
+Date: June 10, 2026 | Duration: 18 minutes | Platform: Zoom
+
+Attendees:
+- Daniel Okafor, Account Executive, RAAPID INC
+- Tyler Brooks, Director of Value-Based Care, Oscar Health
+
+---
+
+Daniel Okafor: Tyler, thanks for jumping on. I know you mentioned this is a preliminary conversation, so I want to keep it loose. Tell me what prompted you to take the meeting.
+
+Tyler Brooks: Honestly, one of our investors mentioned RAAPID at a board meeting. We are a relatively young Medicare Advantage plan -- about 45,000 members, mostly in Florida and Texas. We are growing fast but our risk adjustment infrastructure has not kept up with the growth.
+
+Daniel Okafor: What does your current risk adjustment setup look like?
+
+Tyler Brooks: Very manual. We have two in-house coders. We outsource some retrospective work to a small vendor. No prospective capability at all. We are on Salesforce Health Cloud for member management and a mix of EMRs depending on the provider network.
+
+Daniel Okafor: What is the impact of not having a proper infrastructure at your scale?
+
+Tyler Brooks: We honestly do not know the full extent of it yet. We did our first internal RAF analysis six months ago and the preliminary finding was that we were probably undercoding by around 10 percent. Our actuary thinks that could be as much as 8 million dollars annually given our member base. But it is a rough estimate.
+
+Daniel Okafor: Has leadership prioritized fixing this, or is it still at the awareness stage?
+
+Tyler Brooks: Leadership is aware. Our CEO flagged it in our Q1 all-hands. Budget has not been formally allocated yet. I am in early conversations with a few vendors to understand what is available and what it would cost. My goal is to come to the Q3 budget meeting with a recommendation.
+
+Daniel Okafor: When is Q3 budget finalization?
+
+Tyler Brooks: End of July. So I have about six weeks to do my evaluation and build the business case.
+
+Daniel Okafor: That is tight but doable. What vendors are you currently talking to?
+
+Tyler Brooks: I would rather not say specifically. At least two others. I am trying to compare apples to apples before I make a recommendation.
+
+Daniel Okafor: Fair enough. What criteria matter most to you in the evaluation?
+
+Tyler Brooks: Three things. Speed of deployment -- we cannot afford an 18-month implementation. Accuracy that is independently verifiable, not just vendor claims. And cost, because we are not a large plan and our technology budget is limited.
+
+Daniel Okafor: On deployment speed -- for a plan your size with a mixed EMR environment, we are typically 60 to 90 days to initial go-live for retrospective. Prospective is longer, usually 120 days.
+
+Tyler Brooks: That is better than I expected. What does the pricing look like for a plan our size?
+
+Daniel Okafor: I will be upfront -- I want to put together a specific model for your situation rather than give you a number that may not be accurate. Can you tell me more about your EMR mix?
+
+Tyler Brooks: Most of our network is on Athena and Modernizing Medicine. A smaller portion on Epic.
+
+Daniel Okafor: Helpful. Athena and ModMed are both standard integrations for us. I will put together a pricing estimate and ROI model based on your 45,000-member base and the 10 percent undercoding estimate.
+
+Tyler Brooks: That would be useful. I should tell you -- I do not have authority to make this decision myself. The final call will be our CEO, Karen Liu, and our CFO. I am doing the evaluation and making a recommendation.
+
+Daniel Okafor: Understood. Who else should be in the room when we get to a more formal presentation stage?
+
+Tyler Brooks: Karen and our CFO, Marcus Jones. Our CTO might want to be involved on the integration side. I would not bring them in until I have narrowed it down to one or two finalists.
+
+Daniel Okafor: That makes sense. Let me send you the pricing estimate and ROI model by end of this week. Then maybe we schedule a 30-minute demo for the week after so you have something concrete to take to the evaluation?
+
+Tyler Brooks: That works. I am pretty flexible on timing. Just email me and we will find something.
+
+Daniel Okafor: Will do. Thanks Tyler, appreciate the directness on where you are in the process.
+
+Tyler Brooks: Of course. Talk soon.
+
+---
+[END OF TRANSCRIPT]

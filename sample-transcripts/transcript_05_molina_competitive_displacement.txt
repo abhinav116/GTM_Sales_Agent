@@ -1,0 +1,73 @@
+CALL TRANSCRIPT
+Date: June 12, 2026 | Duration: 35 minutes | Platform: Teams
+
+Attendees:
+- Priya Nair, Account Executive, RAAPID INC
+- Dr. James Osei, VP of Clinical Quality, Molina Healthcare
+- Diane Chu, Director of Risk Adjustment Operations, Molina Healthcare
+- Tom Varghese, Chief Information Officer, Molina Healthcare
+
+---
+
+Priya Nair: Good morning everyone. I appreciate you putting three senior people on this call. Before I say anything about RAAPID, I want to understand what is broken. Dr. Osei, do you want to start?
+
+Dr. James Osei: Sure. We have 600,000 Medicare Advantage members across eleven states. We have been using Inovalon for risk adjustment for the last three years. The contract is up in four months. We are actively evaluating whether to renew or replace.
+
+Priya Nair: What has the experience with Inovalon been?
+
+Dr. James Osei: Mixed at best. The retrospective accuracy is acceptable -- they are hitting around 94 percent on our internal audits. But two problems. First, their prospective capability is weak. We are doing prospective coding manually, which is expensive and inconsistent. Second, the RADV audit support has been inadequate. When we got a RADV sample last year, their documentation package was incomplete and our compliance team had to reconstruct a significant amount of the audit trail themselves.
+
+Diane Chu: From an operations perspective, I will add that their customer support is poor. We have had open tickets for integration issues for six months. We have a dedicated account manager but she has limited ability to actually escalate technical problems.
+
+Tom Varghese: And from an IT perspective, Inovalon's API documentation is outdated. We have had to reverse-engineer parts of the integration ourselves. For a vendor of their scale, it has been surprisingly difficult to work with technically.
+
+Priya Nair: So the accuracy is tolerable but the prospective gap, RADV support, and technical partnership are the real issues.
+
+Dr. James Osei: That is a fair summary.
+
+Priya Nair: What does the financial impact of the prospective gap look like?
+
+Diane Chu: Our internal estimate is 6 to 8 percent undercoding on the prospective side. On 600,000 members, our actuaries have put that at 50 to 70 million dollars annually. That is the headline number driving the urgency here.
+
+Priya Nair: That is significant. On RADV support -- what specifically was missing in Inovalon's documentation package?
+
+Dr. James Osei: The chain of evidence linking the HCC code back to the source clinical documentation was incomplete in about 15 percent of the sampled records. The code was correct but the audit trail was not sufficient to defend it.
+
+Priya Nair: That is a design issue, not a one-off failure. RAAPID's audit trail was built specifically for RADV defensibility. Every code has an immutable chain of evidence: the source note, the code rationale, the coder ID, the timestamp. It is designed to be CMS-ready without any reconstruction.
+
+Tom Varghese: Can that audit trail integrate with our existing compliance tooling? We use ServiceNow for audit management.
+
+Priya Nair: Yes, we have a ServiceNow integration. Our solutions team can walk through the technical details with your IT team.
+
+Tom Varghese: Okay. And what is your infrastructure? We are standardizing on Azure across our enterprise.
+
+Priya Nair: RAAPID runs on Azure. HITRUST CSF certified. We have completed security reviews with three other national MA plans this year.
+
+Tom Varghese: That simplifies things considerably.
+
+Priya Nair: On the timeline -- you said Inovalon's contract is up in four months. Is there flexibility in that timeline or is four months hard?
+
+Diane Chu: The contract expires October 31. We could extend month-to-month if needed but our CFO has made clear he does not want to be paying two vendors simultaneously for long. Realistically, we need a signed agreement by August 15 to have any chance of a clean transition.
+
+Priya Nair: August 15 is eight weeks away. That is aggressive but achievable if we move quickly. What would need to happen on your side to make that timeline work?
+
+Dr. James Osei: We would need a formal proposal and pricing by end of June. A technical review session with Tom's team in the first week of July. And a presentation to our CEO, Joseph White, and CFO, Rebecca Stern, by July 21.
+
+Priya Nair: I can have a formal proposal to you by June 20. The technical review session with Tom's team is straightforward to schedule. On the CEO and CFO presentation -- would it be appropriate for me to be in that room, or would you prefer to present internally?
+
+Dr. James Osei: We would want you present. Joseph and Rebecca will have questions I cannot answer.
+
+Priya Nair: Understood. I will calendar the week of July 21 for that. One more thing I want to flag -- I mentioned HITRUST. Do you need the full certification documentation for your compliance team, or is a summary sufficient at this stage?
+
+Tom Varghese: Full documentation. Our CISO will review it.
+
+Priya Nair: I will include that in the June 20 package. To confirm next steps: proposal and HITRUST documentation by June 20, technical review session first week of July, CEO and CFO presentation week of July 21, target signature by August 15.
+
+Dr. James Osei: That is accurate. Let us make it happen.
+
+Diane Chu: One thing I want to be direct about. We have been burned by vendors who promise things in the sales process and underdeliver in implementation. If you commit to something, I will hold you to it.
+
+Priya Nair: That is fair and I appreciate you saying it directly. I will not commit to anything in this process that I cannot back up with customer references and contract language.
+
+---
+[END OF TRANSCRIPT]

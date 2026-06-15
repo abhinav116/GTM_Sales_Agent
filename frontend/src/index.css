@@ -1,0 +1,7 @@
+/* Reset and base — design system handles everything */
+*, *::before, *::after { box-sizing: border-box; }
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}

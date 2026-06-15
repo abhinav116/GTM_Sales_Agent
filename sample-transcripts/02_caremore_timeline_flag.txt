@@ -1,0 +1,54 @@
+CALL TRANSCRIPT
+Date: June 3, 2026 | Duration: 29 minutes | Platform: Teams
+
+Attendees:
+- Daniel Okafor, Account Executive, RAAPID INC
+- Raymond Cho, VP of Clinical Quality, CareMore Health
+- Priya Anand, Senior Director of Risk Adjustment, CareMore Health
+
+---
+
+Daniel Okafor: Raymond, Priya, thank you for joining. I want to make sure this call is useful for you regardless of whether RAAPID is the right fit. Can you tell me what is driving this conversation right now?
+
+Raymond Cho: We have a real RAF capture problem. CareMore serves about 110,000 Medicare Advantage members and we are consistently underperforming our risk score targets by 8 to 12 percent year over year. Our medical director believes the actual acuity of our members is significantly higher than what we are capturing.
+
+Daniel Okafor: Is there data that supports that belief or is it clinical intuition?
+
+Priya Anand: Both. We ran an internal audit of 500 charts last quarter. Our coders identified missed HCC opportunities in 34 percent of the charts. The estimated annual revenue impact of that miss rate is approximately $9 million. That number came from our actuarial team and it is what got this on Raymond's radar.
+
+Daniel Okafor: Thirty-four percent miss rate, $9 million. Is that primarily retrospective or are there prospective gaps as well?
+
+Priya Anand: Both, but retrospective is the bigger opportunity right now. Our prospective workflow is frankly underdeveloped -- physicians get very limited guidance at point of care. But closing the retrospective gap is the immediate priority.
+
+Raymond Cho: We also had a RADV sample last cycle. Small sample -- only 50 charts -- but the error rate was 8 percent. Not extrapolated, but it made us nervous about where the rules are heading.
+
+Daniel Okafor: What is your current tech stack for retrospective coding?
+
+Priya Anand: We use a mix of internal coders and an outsourced vendor called ZeOmega for some of the retrospective work. The ZeOmega relationship has been inconsistent. Quality varies by project and we have had to rework a significant portion of what they return.
+
+Daniel Okafor: Is there a contract renewal or expiry coming up with ZeOmega?
+
+Priya Anand: The contract auto-renews unless we give notice. We have not given notice yet but we are evaluating whether to do so. There is no hard deadline on that decision -- it renews in the fourth quarter sometime.
+
+Daniel Okafor: What budget has been set aside for a solution like this?
+
+Raymond Cho: We have had a preliminary conversation with our CFO. There is appetite for this investment -- the $9 million opportunity makes the math obvious. The budget conversation is not finalized but I would say we are in the range of $600,000 to $900,000 annually for a comprehensive solution. That is a working number, not a committed number.
+
+Daniel Okafor: Is the CFO or finance team part of the evaluation process?
+
+Raymond Cho: I own the evaluation. Finance gets involved when we get to contract. I can make the recommendation and it will be approved if the clinical and operational case is strong.
+
+Daniel Okafor: What is your target timeline for a decision?
+
+Raymond Cho: Honestly we do not have a hard deadline. We should move on this -- the $9 million number creates urgency -- but I cannot give you a specific date right now. Sometime in the next few months is where my head is at.
+
+Daniel Okafor: That is helpful to know. What would a strong proof of concept look like for CareMore?
+
+Priya Anand: We would want to test against the 500 charts from our internal audit where we know what was missed. If a vendor can demonstrate meaningfully higher capture rates on those charts versus our current approach, that is compelling.
+
+Daniel Okafor: We can structure a POC exactly that way. What I will do is send you a proposed POC framework by end of week along with two reference contacts from comparable plans.
+
+Raymond Cho: That works. Let us plan a follow-up in two weeks to review.
+
+---
+[END OF TRANSCRIPT]

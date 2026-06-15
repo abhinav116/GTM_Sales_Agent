@@ -1,0 +1,50 @@
+CALL TRANSCRIPT
+Date: June 7, 2026 | Duration: 22 minutes | Platform: Zoom
+
+Attendees:
+- Daniel Okafor, Account Executive, RAAPID INC
+- Stephanie Marsh, Director of Medicare Strategy, Independence Blue Cross
+- (Note: Carl Watkins, VP of Technology, was expected but did not join)
+
+---
+
+Daniel Okafor: Stephanie, thanks for jumping on. I know we have been in conversation for a few months. I wanted to check in on where things stand.
+
+Stephanie Marsh: I appreciate your patience. I owe you a straight answer. The clinical and operational case for RAAPID is strong. Our team finished the evaluation in March and the recommendation was positive. The issue is on the IT security and legal side.
+
+Daniel Okafor: Can you be specific about what is outstanding?
+
+Stephanie Marsh: We sent RAAPID's security documentation to our InfoSec team in February. They came back with 14 questions in March. Your team answered 11 of them and I thought we were close. But InfoSec has come back with a new concern around data residency -- they want to confirm that member data does not leave US-based data centers under any circumstances including for model training.
+
+Daniel Okafor: That is a commitment we can make. We have a BAA that explicitly covers data residency and model training exclusions. Has that documentation been shared with your InfoSec team?
+
+Stephanie Marsh: I do not think so. I am not sure what documentation has gone back and forth at this point -- Carl's team is managing that side of it and he is not on the call today. That is part of the challenge. Communication between my team and IT has not been great on this.
+
+Daniel Okafor: Who is the right person on Carl's team to get the data residency documentation to directly?
+
+Stephanie Marsh: His security lead is Maria Gonzalez. I can make that introduction but I do not want to step on Carl's toes. He is territorial about vendor communications going through his team.
+
+Daniel Okafor: Understood. What about the legal review -- is there a separate track there?
+
+Stephanie Marsh: Yes. Legal has had the contract since April. They came back with redlines in May. I believe your contracts team has received those but I have not seen confirmation that they have been addressed.
+
+Daniel Okafor: I will check with our contracts team today and come back to you with status. Is legal the last gate or is there anything else behind it?
+
+Stephanie Marsh: If InfoSec and legal are resolved, I believe we can move to final executive approval from our CMO. That should be straightforward given the clinical evaluation was positive. But I have been saying that for two months.
+
+Daniel Okafor: I hear the frustration. What would it take to get this to a close in June?
+
+Stephanie Marsh: Honestly it requires Carl to be engaged and moving. He is managing three other IT projects and this has not been his priority. I do not have the leverage to escalate over him directly.
+
+Daniel Okafor: Is there an executive who owns the overall initiative who could unblock this?
+
+Stephanie Marsh: Our CMO is aware of the deal but she delegated the security review to Carl. I am hesitant to go around him without a specific reason.
+
+Daniel Okafor: Here is what I can do. I will have our data residency documentation to Maria Gonzalez by end of day today. I will also have our contracts team respond to legal redlines by Thursday. Can we schedule a brief sync with you, Carl, and our team next week to clear the remaining items together?
+
+Stephanie Marsh: I can try to get Carl on a call. No promises but I will send the invite. Thursday afternoon usually works for his team.
+
+Daniel Okafor: I will send a Thursday afternoon hold and we can confirm tomorrow.
+
+---
+[END OF TRANSCRIPT]

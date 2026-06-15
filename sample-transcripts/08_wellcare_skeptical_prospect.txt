@@ -1,0 +1,57 @@
+CALL TRANSCRIPT
+Date: June 9, 2026 | Duration: 16 minutes | Platform: Zoom
+
+Attendees:
+- Daniel Okafor, Account Executive, RAAPID INC
+- Greg Simmons, VP of Operations, WellCare of Kentucky
+
+---
+
+Daniel Okafor: Greg, appreciate you making time. What prompted you to take the call?
+
+Greg Simmons: Honestly, one of your colleagues emailed me about six times so eventually I said yes. I am not actively looking for a vendor right now.
+
+Daniel Okafor: Fair enough. I appreciate your candor. Can I ask a few questions about your current situation and if it is not relevant you can tell me to wrap up?
+
+Greg Simmons: Sure, go ahead.
+
+Daniel Okafor: How is risk adjustment performance going at WellCare of Kentucky?
+
+Greg Simmons: Fine. We use Apixio for retrospective and we are not unhappy with them.
+
+Daniel Okafor: What does the relationship look like with Apixio -- accuracy, coverage, responsiveness?
+
+Greg Simmons: It is what it is. Accuracy is acceptable. We have been with them three years. I do not have specific numbers in front of me.
+
+Daniel Okafor: Is there anything that has been a friction point with them?
+
+Greg Simmons: Every vendor has friction points. I would not say we are looking to replace them.
+
+Daniel Okafor: When does the Apixio contract come up?
+
+Greg Simmons: I am not going to share contract details with a vendor who is trying to displace them. That is not something I do.
+
+Daniel Okafor: That is completely fair. What would need to be true for you to consider evaluating a different approach?
+
+Greg Simmons: Something would need to go wrong. Right now nothing is going wrong badly enough to justify the disruption of switching.
+
+Daniel Okafor: What does your membership size look like on the MA side?
+
+Greg Simmons: We are a regional plan. I am not going to give you specifics.
+
+Daniel Okafor: Are there any initiatives on the prospective side -- physician point of care coding guidance?
+
+Greg Simmons: We have some things in place. I am not really in a position to go into detail.
+
+Daniel Okafor: I hear you. It sounds like the timing is genuinely not right and I do not want to waste your time. Can I ask one last question: is there anything that would make a future conversation more relevant?
+
+Greg Simmons: If there were a specific clinical outcome improvement tied to your solution rather than just coding efficiency, that would be more interesting to me. But that is a different category of conversation.
+
+Daniel Okafor: That is actually an area where we have case study data. Would it be worth me sending one document -- one page -- on clinical quality outcomes from plans using prospective HCC coding assist?
+
+Greg Simmons: Sure, send it. I may or may not read it.
+
+Daniel Okafor: I will send it today. Thanks for your time, Greg.
+
+---
+[END OF TRANSCRIPT]

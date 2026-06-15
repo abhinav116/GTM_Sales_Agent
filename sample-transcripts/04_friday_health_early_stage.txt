@@ -1,0 +1,47 @@
+CALL TRANSCRIPT
+Date: June 5, 2026 | Duration: 18 minutes | Platform: Zoom
+
+Attendees:
+- Daniel Okafor, Account Executive, RAAPID INC
+- Kevin Park, Manager of Clinical Programs, Friday Health Plans
+
+---
+
+Daniel Okafor: Kevin, appreciate you taking the call. How did you come across RAAPID?
+
+Kevin Park: I saw a mention in one of the AHIP newsletters. We have been thinking about doing something more with risk adjustment but it is early days for us honestly.
+
+Daniel Okafor: Can you tell me a bit about Friday Health Plans and where you are on risk adjustment today?
+
+Kevin Park: We are a smaller ACA and Medicare Advantage plan. The Medicare Advantage side is relatively new for us -- we have been in MA for about two years. Our membership is still small, maybe 8,000 members right now. We do everything manually, there is no coding vendor, no real technology in place.
+
+Daniel Okafor: What challenges are you running into?
+
+Kevin Park: Just general concerns that we might be leaving money on the table. We do not have specific data on it. Our team is small and nobody has deep expertise in HCC coding. I am kind of doing research to understand what options exist.
+
+Daniel Okafor: Is there a specific business problem that triggered this -- an audit finding, a revenue shortfall, a leadership directive?
+
+Kevin Park: Not really a specific trigger. It is more that as we grow we want to make sure we have the right infrastructure. But there is no burning platform right now.
+
+Daniel Okafor: Who at Friday Health Plans would ultimately be involved in a decision like this?
+
+Kevin Park: That is a good question. I am not sure honestly. I would probably put together a summary and share it with my VP but I do not know what the process would look like above that. We are a pretty flat organization.
+
+Daniel Okafor: Is there a budget set aside for risk adjustment technology?
+
+Kevin Park: Not that I am aware of. We are a lean organization and any spend like this would need a business case. I would not know where to start on that.
+
+Daniel Okafor: What would success look like for you in the next six months on risk adjustment?
+
+Kevin Park: I think just having a better understanding of what we are missing and whether there is a cost-effective way to address it. I am not in a position to make a buying decision anytime soon.
+
+Daniel Okafor: I appreciate your honesty. Given where you are, it sounds like the most useful thing I can do is share some educational content on how plans your size typically approach RAF capture and what the benchmark economics look like. Would that be useful?
+
+Kevin Park: Yes, that would be helpful. I am really in learning mode right now.
+
+Daniel Okafor: I will send you a benchmarking summary by end of week. If it is useful, we can reconnect in a quarter or so when you have a better sense of the priority internally.
+
+Kevin Park: That sounds good. Thanks for being realistic about the timing.
+
+---
+[END OF TRANSCRIPT]

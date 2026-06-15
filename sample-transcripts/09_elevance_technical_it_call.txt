@@ -1,0 +1,68 @@
+CALL TRANSCRIPT
+Date: June 10, 2026 | Duration: 31 minutes | Platform: Teams
+
+Attendees:
+- Sarah Chen, Account Executive, RAAPID INC
+- Michael Torres, Solutions Engineer, RAAPID INC
+- Devon Carr, Enterprise Architect, Elevance Health
+- Rita Pham, Epic Integration Lead, Elevance Health
+- Sam Obi, Information Security Analyst, Elevance Health
+
+---
+
+Sarah Chen: Devon, Rita, Sam -- thanks for joining. My colleague Michael Torres is here to handle the technical questions. Before I hand it over to him, I want to confirm the context. This is a technical architecture review as part of the broader evaluation that Angela Voss's team is leading on the clinical side. Is that right?
+
+Devon Carr: Correct. Angela asked us to do a technical feasibility review. The business and clinical evaluation is happening separately. We are just here to understand the architecture and flag any concerns.
+
+Michael Torres: Happy to walk through the full stack. At a high level, RAAPID runs on AWS GovCloud US-East and US-West with no data leaving US boundaries. Data is encrypted in transit and at rest using AES-256. We hold HITRUST CSF certification and complete a SOC 2 Type II audit annually.
+
+Sam Obi: We need to verify that the HITRUST certification covers the specific services used in production, not just a subset. We have had vendors present HITRUST certs that only cover part of their infrastructure.
+
+Michael Torres: Our HITRUST scope covers the full production environment including all data processing pipelines, the model inference layer, and the data storage layer. I can provide the certificate of compliance with the exact scope description after this call.
+
+Sam Obi: What about subprocessors? Do you use any third-party subprocessors for data processing?
+
+Michael Torres: We use AWS as our primary infrastructure provider. No member data is passed to any other third party. Our model inference runs in our own infrastructure, not a third-party API.
+
+Sam Obi: That is important. We have had issues with vendors using OpenAI or similar APIs which creates data residency problems. Confirming that member data does not go to any LLM API?
+
+Michael Torres: Confirmed. Our models are deployed in our own infrastructure. No member data touches any external API.
+
+Rita Pham: On the Epic side, what integration method are you using? Are you SMART on FHIR, direct HL7, or something else?
+
+Michael Torres: We are certified Epic App Orchard partners. We use SMART on FHIR R4 for data retrieval. For writing back HCC suggestions to the chart, we use Epic's CDS Hooks standard. It surfaces inside the Epic workflow, not as a separate application.
+
+Rita Pham: What version of CDS Hooks?
+
+Michael Torres: CDS Hooks 1.0 with support for 2.0. The implementation depends on the Epic version your organization is running.
+
+Rita Pham: We are on Epic 2024. CDS Hooks 2.0 preferred.
+
+Michael Torres: We support 2.0 on Epic 2024. No issue there.
+
+Devon Carr: What does the data flow look like? Walk me through what happens from the moment a physician opens an encounter to when a suggestion surfaces.
+
+Michael Torres: The encounter open triggers an HL7 FHIR query from our application to your Epic instance, pulling the patient's problem list, recent diagnoses, and lab values. That data hits our inference engine -- average latency is 800 milliseconds. The suggestion surfaces in the Epic SmartText panel before the physician closes the note. No data is written back to the chart without physician acceptance.
+
+Devon Carr: What is the data retention policy for the FHIR queries you pull?
+
+Michael Torres: We retain encounter-level query logs for 90 days for debugging and audit purposes. After 90 days, logs are purged. We do not retain individual patient data beyond the encounter session unless the client BAA specifies otherwise.
+
+Sam Obi: We will need that in writing in the BAA. Our standard is 30-day log retention.
+
+Michael Torres: We can accommodate 30-day retention in the BAA. That is a standard modification we make.
+
+Devon Carr: Last question from us -- what is the expected downtime for maintenance and how is that communicated?
+
+Michael Torres: We have a 99.9 percent SLA with scheduled maintenance windows on Sunday nights between 2 and 4 AM Eastern. Clients receive 72-hour advance notice for all maintenance windows. Unplanned downtime in the last 12 months was 47 minutes total.
+
+Devon Carr: That is acceptable. Sam, any remaining security questions for today?
+
+Sam Obi: I will have follow-up questions after I review the HITRUST cert. Overall no blockers from what I have heard today.
+
+Sarah Chen: Great. Michael, can you send Devon and Sam the HITRUST cert and SOC 2 report today?
+
+Michael Torres: Done by end of day.
+
+---
+[END OF TRANSCRIPT]

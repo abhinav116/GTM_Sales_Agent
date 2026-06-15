@@ -1,0 +1,54 @@
+CALL TRANSCRIPT
+Date: June 4, 2026 | Duration: 25 minutes | Platform: Zoom
+
+Attendees:
+- Sarah Chen, Account Executive, RAAPID INC
+- Marcus Hill, Director of Health Plan Operations, Scott and White Health Plan
+- Leila Torres, Risk Adjustment Coding Lead, Scott and White Health Plan
+
+---
+
+Sarah Chen: Marcus, Leila, thanks for making time. Can you share what is going on with risk adjustment at Scott and White right now?
+
+Marcus Hill: We are a regional plan -- about 45,000 Medicare Advantage members in Central Texas. We do not have a lot of the infrastructure that larger plans have. Our coding is done entirely in-house. We have three coders doing retrospective chart review and it is not enough bandwidth for our membership size.
+
+Leila Torres: We are getting to maybe 20 percent of the charts that should be reviewed. The other 80 percent go unreviewed before submission. We know we are leaving money on the table but we simply do not have the headcount.
+
+Sarah Chen: Is there a revenue estimate attached to the missed charts?
+
+Leila Torres: We have not done a formal actuarial analysis. Informally, based on national benchmarks and our member acuity profile, we estimate the miss is meaningful -- probably in the low millions annually. But that is a rough number, not a validated one.
+
+Sarah Chen: What does a decision to bring in an external solution look like at Scott and White? Who is involved?
+
+Marcus Hill: I can evaluate solutions and make a recommendation. Final budget approval goes to our CFO and our President. I do not have independent budget authority above $100,000 annually. Something like this would need executive sign-off.
+
+Sarah Chen: Is there a budget conversation that has happened at the executive level, or would your recommendation kick that off?
+
+Marcus Hill: It has not happened yet. I have not surfaced this formally to leadership. My intent was to understand the market and build a business case before taking it upstairs. I do not want to go to the CFO without knowing what the cost-benefit looks like.
+
+Sarah Chen: That makes sense. What range are you expecting the conversation to be in?
+
+Marcus Hill: I genuinely do not know yet. I have not seen vendor pricing. I would hope it is proportionate to our membership size -- we are not a Humana, we cannot spend $2 million a year on this.
+
+Sarah Chen: Understood. For a plan your size, our solutions typically range from $200,000 to $400,000 annually depending on scope. Does that fall in a range that would be realistic for a business case?
+
+Marcus Hill: That seems potentially workable. But I really need to see the ROI math before I can say whether leadership would approve it.
+
+Leila Torres: The other thing I want to flag is that we have an Epic implementation happening right now. We went live on Epic six months ago and we are still stabilizing. Any new vendor would need to integrate cleanly with Epic and our IT team is stretched.
+
+Sarah Chen: Epic integration is standard for us. When is the Epic stabilization expected to be complete?
+
+Leila Torres: Our IT director says we should be stable by end of Q3. So September or October timeframe.
+
+Sarah Chen: That would suggest a natural window for implementation in Q4 if a decision were made in the August to September timeframe.
+
+Marcus Hill: That is possible. But honestly I cannot commit to a timeline right now without knowing what executive sign-off looks like. This conversation is early stage for us.
+
+Sarah Chen: I appreciate you being straightforward about that. Here is what I would suggest: I send you an ROI model specific to a 45,000-member plan so you have concrete numbers to take to your CFO. That gives you the foundation for the business case conversation.
+
+Marcus Hill: That would be genuinely helpful. Can you have that to us in the next week or two?
+
+Sarah Chen: Yes, I will have it to you by June 12th.
+
+---
+[END OF TRANSCRIPT]

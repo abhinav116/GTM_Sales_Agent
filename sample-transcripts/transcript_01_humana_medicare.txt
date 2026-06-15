@@ -1,0 +1,60 @@
+CALL TRANSCRIPT
+Date: June 3, 2026 | Duration: 28 minutes | Platform: Teams
+
+Attendees:
+- Priya Nair, Account Executive, RAAPID INC
+- Robert Kaminsky, VP of Medicare Advantage Operations, Humana Inc.
+- Sandra Lee, Director of Risk Adjustment Technology, Humana Inc.
+
+---
+
+Priya Nair: Good afternoon Robert, Sandra. I appreciate you both joining. I wanted to start by understanding your current risk adjustment setup before we get into what RAAPID can offer.
+
+Robert Kaminsky: Sure, appreciate the directness. We have about 1.2 million Medicare Advantage members across our plans nationally. Risk adjustment is core to our business model, so accuracy matters enormously. We are currently using a combination of Cotiviti for retrospective and an internal team for prospective work.
+
+Priya Nair: How is that combination performing for you?
+
+Robert Kaminsky: Cotiviti is okay on the retrospective side but we are consistently seeing a 5 to 6 percent undercoding rate on our spot audits. Our internal actuaries estimate we are leaving somewhere between 40 and 60 million dollars of RAF capture on the table annually. That number is what prompted this conversation.
+
+Sandra Lee: And from a technology perspective, the integration has been painful. Cotiviti sends us batch files every two weeks. By the time we act on them, the retrospective window is nearly closed. We need something closer to real-time.
+
+Priya Nair: That lag is a common problem with legacy retrospective vendors. Can I ask about your current tech infrastructure?
+
+Sandra Lee: We are primarily on AWS. Our clinical data sits in Epic and HealthConnect. We have a data engineering team that can handle ETL work but we are not looking to build anything from scratch.
+
+Priya Nair: That is helpful. AWS and Epic are both environments RAAPID integrates with natively. On the near real-time side, our pipeline typically processes updated charts within 24 to 48 hours of encounter, which closes that lag almost entirely.
+
+Robert Kaminsky: That would be a meaningful improvement. What does a typical deployment look like?
+
+Priya Nair: We typically do a phased rollout. Initial deployment against a subset of your membership, 90-day validation period, then expansion. We have done this with three other national MA plans.
+
+Sandra Lee: One concern I have is around HITRUST. We had a vendor three years ago that said they were compliant but their audit documentation was incomplete. Our legal team ended up spending months on it.
+
+Priya Nair: RAAPID is HITRUST CSF certified. I can share the certification documentation this week. It also runs entirely on Azure, which is FedRAMP authorized and aligns with CMS data handling requirements.
+
+Robert Kaminsky: Actually that is interesting. We have been under some pressure from our compliance team to consolidate vendors on Azure given the CMS guidance last year. Having RAAPID on Azure could help with that consolidation story.
+
+Sandra Lee: Budget-wise, we have a vendor review cycle that kicks off in August for Q4 commitments. If we want something live by Q1 next year, we would need a signed agreement by end of September.
+
+Priya Nair: That timeline is very workable. What would the evaluation process look like on your end?
+
+Robert Kaminsky: We would want a technical proof of concept on 50,000 to 100,000 member records, probably from our Kentucky plan which had the weakest RAF capture last year. Then a presentation to our Chief Actuary and Chief Compliance Officer before final approval.
+
+Priya Nair: That scope is very manageable. Who else would be involved in the buying decision?
+
+Robert Kaminsky: The Chief Actuary is Dr. Patricia Okon. She will want to see the accuracy numbers. And James Whitfield, our Chief Compliance Officer, will need to sign off on the HITRUST documentation. Both are in Louisville.
+
+Priya Nair: Should I send the technical overview and HITRUST docs directly to you both, or would it be better to include Dr. Okon and James Whitfield now?
+
+Sandra Lee: Copy Robert and me first. We will review and then bring them in at the right time.
+
+Priya Nair: Perfect. I will have a technical brief and HITRUST documentation to you by end of this week. Can we schedule a follow-up call for the week of June 16 to align on POC scope?
+
+Robert Kaminsky: That works. Sandra, can you block something for June 17 or 18?
+
+Sandra Lee: Either works. Let us say June 17, 2 PM Eastern.
+
+Priya Nair: Confirmed. I will send a calendar invite. Thank you both, this was a productive conversation.
+
+---
+[END OF TRANSCRIPT]

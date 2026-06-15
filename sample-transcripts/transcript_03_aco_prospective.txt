@@ -1,0 +1,67 @@
+CALL TRANSCRIPT
+Date: June 8, 2026 | Duration: 31 minutes | Platform: Zoom
+
+Attendees:
+- Sarah Chen, Account Executive, RAAPID INC
+- Dr. Anita Rowe, Chief Medical Officer, Midwest Accountable Care Organization
+- Greg Feldman, VP of Finance, Midwest Accountable Care Organization
+- Lisa Park, Director of Clinical Informatics, Midwest Accountable Care Organization
+
+---
+
+Sarah Chen: Good morning everyone. Thank you for having three of you on this call -- it tells me you are taking this seriously. Dr. Rowe, do you want to start by walking me through where Midwest ACO is right now?
+
+Dr. Anita Rowe: Of course. We cover about 85,000 Medicare Advantage lives across seven health systems in Illinois and Indiana. We have been a MSSP participant for four years. Our shared savings performance has been decent -- we hit the benchmark three of the last four years -- but our risk adjustment accuracy has always been a weak point.
+
+Sarah Chen: When you say weak point, what does that mean in practice?
+
+Dr. Anita Rowe: It means our RAF scores are consistently below our risk cohort benchmarks. Our actuaries believe we are undercoding by somewhere in the range of 8 to 12 percent. We have never done a formal internal audit, so that number has some uncertainty.
+
+Greg Feldman: From a financial standpoint, if that range is accurate, we are looking at potentially 15 to 20 million dollars in missed shared savings annually. That is material for an organization our size.
+
+Sarah Chen: What is the current process for capturing HCC codes?
+
+Lisa Park: Entirely manual right now. Physicians document in Epic. Our coding team does retrospective review on a quarterly basis -- we have a team of 9 coders. There is no prospective workflow at all. Physicians do not have any guidance at point of care.
+
+Sarah Chen: So the gap is almost entirely prospective -- missed opportunities before the encounter rather than documentation errors after?
+
+Dr. Anita Rowe: Primarily yes. Our retrospective accuracy is reasonable. The problem is we are not surfacing the right diagnoses before the physician walks into the room.
+
+Sarah Chen: That is exactly the use case RAAPID was built for. The prospective module flags relevant diagnoses based on the member's history before each encounter and delivers them to the physician through Epic. It does not add workflow -- it works within the existing Epic interface.
+
+Lisa Park: We have a complex Epic implementation -- 4 instances across the seven health systems. Not fully unified. Would that be a problem?
+
+Sarah Chen: We have done multi-instance Epic deployments before. It adds complexity to the implementation timeline but it is not a blocker. I would want our solutions architect to review your setup before we commit to a specific timeline.
+
+Dr. Anita Rowe: What does a typical deployment look like from start to live?
+
+Sarah Chen: For a prospective-only deployment, typically 90 to 120 days from signed agreement to go-live. Multi-instance Epic would likely push that to 150 days.
+
+Greg Feldman: Let me be honest about the budget situation. We have a technology budget for this year and next, but it is not unlimited. We are an ACO, not a health plan. Our margins are thin. What kind of pricing model does RAAPID use?
+
+Sarah Chen: It is per-member per-month, with pricing that scales based on membership size. For 85,000 members, I can put together a specific number, but roughly we are talking about a range of 2 to 4 dollars per member per month depending on which modules. That would be 170,000 to 340,000 dollars annually.
+
+Greg Feldman: That range is within what we could consider if the ROI case is solid. We would need to see a clear financial model showing the expected uplift.
+
+Sarah Chen: I can put together an ROI model based on your current undercoding estimate. If we use the conservative end of your actuaries' estimate, the math should make the case.
+
+Dr. Anita Rowe: One thing I want to be very direct about. Our physicians are already stretched. I cannot bring in another technology that adds steps to their workflow. If this creates friction, our CMO network will reject it immediately.
+
+Sarah Chen: That is the single most important thing I would want to show you in a demo. The RAAPID prospective interface surfaces information inside the existing Epic note. The physician sees it, acts on it or dismisses it in one click, and moves on. The average interaction is under 30 seconds.
+
+Dr. Anita Rowe: I would need to see that in person with a physician from our network before I would be comfortable recommending it.
+
+Sarah Chen: Absolutely. We can arrange a demo with one of your Epic implementations with a physician walkthrough. Is there a particular specialty or health system that would be the right group to pilot with?
+
+Dr. Anita Rowe: Internal medicine at Northwestern Medicine Delnor. That is our largest primary care network and the physicians there are the most engaged on quality.
+
+Sarah Chen: Perfect. I will coordinate a demo with your Delnor team. Who should I contact on your end to set that up?
+
+Lisa Park: Go through me. I handle all Epic vendor coordination.
+
+Sarah Chen: Great. Lisa, I will be in touch this week. I will also send the ROI model and deployment overview by end of day Thursday.
+
+Dr. Anita Rowe: Good. We are hoping to make a decision before the end of Q3.
+
+---
+[END OF TRANSCRIPT]

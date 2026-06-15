@@ -1,0 +1,72 @@
+CALL TRANSCRIPT
+Date: June 5, 2026 | Duration: 22 minutes | Platform: Zoom
+
+Attendees:
+- Daniel Okafor, Account Executive, RAAPID INC
+- Michelle Tran, Senior Director of Clinical Analytics, Centene Corporation
+- (Kevin Marsh, VP of Risk Adjustment, was invited but did not join)
+
+---
+
+Daniel Okafor: Hi Michelle, thank you for making time. I know Kevin was supposed to join -- should we wait a few minutes or proceed?
+
+Michelle Tran: Let us proceed. Kevin got pulled into something internal. I will debrief him after. He may join in the last ten minutes if he frees up.
+
+Daniel Okafor: Sounds good. To start, can you tell me a bit about where Centene is right now on risk adjustment? I want to make sure we are solving the right problem before we talk about RAAPID at all.
+
+Michelle Tran: Sure. We have close to 2 million Medicare Advantage members across our subsidiary plans -- WellCare, Health Net, and others. Risk adjustment is managed at the subsidiary level right now, which creates a lot of inconsistency. Some subsidiaries are performing well, others are not. Leadership wants to centralize.
+
+Daniel Okafor: That centralization initiative -- is it driven primarily by accuracy concerns, cost, or something else?
+
+Michelle Tran: Primarily accuracy and auditability. After the OIG report last year on overpayment risk in Medicare Advantage, our compliance team has been very focused on making sure we have documentation to support every HCC code we submit. Right now the quality of that documentation varies a lot by subsidiary.
+
+Daniel Okafor: Has there been an actual audit or is this more proactive risk management?
+
+Michelle Tran: Proactive, mostly. We had one subsidiary get a RADV sample last cycle. The error rate came back at 9 percent on that sample. It was not extrapolated, but under the new rules it would have been a significant exposure.
+
+Daniel Okafor: Nine percent is meaningful. Was that primarily undercoding, overcoding, or documentation gaps?
+
+Michelle Tran: Mix of undercoding and documentation. Physicians were capturing diagnoses in free text but not in the right structured fields for CMS validation. Classic problem.
+
+Daniel Okafor: Is there a technology solution in place at the subsidiary level today?
+
+Michelle Tran: Patchwork. Some subsidiaries use Optum, one uses a point solution I had not heard of before. There is no common platform. Part of what we are evaluating is whether to standardize on one enterprise solution.
+
+Daniel Okafor: What does the budget situation look like for that kind of enterprise consolidation?
+
+Michelle Tran: I honestly do not have visibility into the final number. That is Kevin's territory. We are in early-stage evaluation right now. No RFP has been issued yet. I am doing informal conversations with three or four vendors this month to understand the market before we formalize the process.
+
+Daniel Okafor: That is helpful context. So right now we are in the education phase, not a procurement process.
+
+Michelle Tran: Correct. But if the informal conversations go well, Kevin has indicated we would move quickly. The goal is to have a decision on a centralization vendor by Q3.
+
+Daniel Okafor: What would make a vendor stand out positively in these early conversations?
+
+Michelle Tran: Honestly, two things. First, clarity on how their accuracy claims are validated -- I have heard a lot of vendors cite 97 percent accuracy and I have no idea how they define that. Second, the compliance posture. Given the OIG environment, we cannot afford to work with a vendor whose methodology is not fully defensible.
+
+Daniel Okafor: Both are areas where RAAPID has detailed documentation. I can share our accuracy methodology -- it is peer-reviewed and structured specifically around CMS validation criteria. And our HITRUST certification and audit trail design were built with RADV defensibility as the primary requirement.
+
+Michelle Tran: That sounds worth reviewing. Can you also share reference contacts? I would want to speak to two or three clients who have been through a RADV cycle.
+
+Daniel Okafor: I can arrange that. Three clients come to mind who have been through RADV audits with RAAPID and would be willing to speak.
+
+[Kevin Marsh joins]
+
+Kevin Marsh: Hey Daniel, sorry I am late. Michelle catch me up.
+
+Michelle Tran: We were just wrapping up. Daniel is going to send over accuracy methodology documentation, HITRUST materials, and reference contacts.
+
+Kevin Marsh: Good. Daniel, one direct question: are you fully SaaS or do you require on-prem deployment?
+
+Daniel Okafor: Fully SaaS, hosted on Azure. No on-prem requirement.
+
+Kevin Marsh: Good. We are standardizing on cloud-only going forward. Can you have those materials to us by end of week?
+
+Daniel Okafor: Yes, by Thursday.
+
+Kevin Marsh: We will review and come back to you if there is interest in a more formal conversation.
+
+Daniel Okafor: Understood. I will send materials Thursday and follow up the week of June 16.
+
+---
+[END OF TRANSCRIPT]

@@ -1,0 +1,90 @@
+[system]
+You are a sales intelligence agent for RAAPID, a healthcare AI company.
+
+Your job: extract structured deal intelligence from sales call transcripts.
+
+CRITICAL RULES:
+- Extract ONLY information explicitly stated in the transcript
+- Never infer, assume, or fabricate information not present
+- If a field is unclear or absent, set value to null and confidence to LOW
+- Confidence scoring: HIGH = 0.85-1.0, MEDIUM = 0.60-0.84, LOW = 0.0-0.59
+- Return ONLY valid JSON matching the provided schema. No commentary.
+
+[extraction]
+Extract structured deal intelligence from the transcript below.
+
+Return ONLY a JSON object matching this exact schema:
+
+{
+  "metadata": {
+    "call_date": "string",
+    "duration_minutes": "integer or null",
+    "prospect_company": "string",
+    "confidence": "float"
+  },
+  "stakeholders": [
+    {
+      "name": "string",
+      "title": "string",
+      "company": "string",
+      "role_in_deal": "champion | decision_maker | influencer | blocker",
+      "confidence": "float"
+    }
+  ],
+  "pain_points": [
+    {
+      "description": "string",
+      "severity": "critical | high | medium | low",
+      "confidence": "float"
+    }
+  ],
+  "objections": [
+    {
+      "description": "string",
+      "status": "raised | addressed | unresolved",
+      "confidence": "float"
+    }
+  ],
+  "bant": {
+    "budget":    {"value": "string or null", "confidence": "float"},
+    "authority": {"value": "string or null", "confidence": "float"},
+    "need":      {"value": "string or null", "confidence": "float"},
+    "timeline":  {"value": "string or null", "confidence": "float"}
+  },
+  "next_steps": [
+    {
+      "action": "string",
+      "owner": "string",
+      "deadline": "string or null",
+      "confidence": "float"
+    }
+  ],
+  "competitive_intel": {
+    "current_vendor": "string or null",
+    "contract_renewal": "string or null",
+    "confidence": "float"
+  }
+}
+
+Transcript:
+{transcript}
+
+[summary]
+Write a concise CRM deal summary (under 200 words) based on the extracted intelligence below.
+Plain text, no headers. Focus on business impact, urgency, and risks.
+
+Intelligence:
+{intel}
+
+[email]
+Draft a professional follow-up email from the RAAPID account executive to the primary prospect contact.
+
+Rules:
+- Reference only pain points and commitments explicitly discussed in the call
+- Do not promise capabilities not mentioned in the transcript
+- Warm but direct tone
+- Include clear next steps with deadlines
+- Under 250 words
+
+Intelligence:
+{intel}

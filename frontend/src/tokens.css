@@ -1,0 +1,127 @@
+/* =========================================================================
+   tokens.css — Consent Registrar Portal design tokens
+   Inferred from Consent OS reference frames:
+     - Sign-in (Invitation) 2766:10537
+     - User Management table 2052:23918
+     - Multi-select list w/ floating action bar 644:8072
+   Naming follows Figma variable conventions so re-import maps cleanly.
+   ========================================================================= */
+
+:root {
+  /* ---------- COLOR · NEUTRALS ---------- */
+  --color-white:           #FFFFFF;
+  --color-bg-page:         #EEF1F6;  /* page canvas behind cards */
+  --color-bg-subtle:       #F5F7FB;  /* sign-in left pane, soft fills */
+  --color-bg-alt:          #F4F7FD;  /* table header strip, hover surfaces */
+  --color-surface:         #FFFFFF;  /* cards, inputs, table body */
+  --color-border-subtle:   #E4E8F0;  /* default 1px borders */
+  --color-border-soft:     #DCE6F8;  /* light blue-tinted borders (pills) */
+
+  /* ---------- COLOR · TEXT ---------- */
+  --color-text-strong:     #0B1A33;  /* H1, primary headings */
+  --color-text-default:    #1F2A44;  /* body strong / dark UI chrome */
+  --color-text-muted:      #5C6781;  /* descriptions, secondary */
+  --color-text-placeholder:#8590A8;  /* input placeholders, micro */
+  --color-text-on-primary: #FFFFFF;
+  --color-text-on-dark:    #FFFFFF;
+
+  /* ---------- COLOR · BRAND / PRIMARY ---------- */
+  --color-primary:         #2563EB;  /* CTA blue */
+  --color-primary-hover:   #1E54CC;  /* derived ~10% darker */
+  --color-primary-subtle:  #EEF4FF;  /* selected row, focus ring bg */
+
+  /* ---------- COLOR · DARK CHROME ---------- */
+  --color-dark-surface:    #1F2A44;  /* floating action bar, "All" pill */
+  --color-dark-surface-2:  #0B1A33;  /* sidebar deep / overlays */
+
+  /* ---------- COLOR · STATUS ---------- */
+  --color-success:         #15814C;
+  --color-success-bg:      #E0F1E7;  /* finance-admin tag bg */
+  --color-warning:         #8A6D2A;
+  --color-warning-bg:      #FFF4DA;  /* super-admin tag bg */
+  --color-danger:          #ED1C24;
+  --color-danger-bg:       #FCE7E7;
+  --color-info:            #01346B;
+  --color-info-bg:         #E1EFFB;
+  --color-purple:          #5B2A9D;  /* regulatory/legal tag */
+  --color-purple-bg:       #F0E7FA;
+
+  /* ---------- TYPOGRAPHY · FAMILIES ---------- */
+  --font-sans: "Geist", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  /* --font-mono kept as an alias of --font-sans so existing rules using it
+     continue to work without hunting every selector. Geist Mono is no longer loaded. */
+  --font-mono: var(--font-sans);
+
+  /* ---------- TYPOGRAPHY · SIZES & LINE HEIGHTS ----------
+     Pairs sampled from frames; line-heights are absolute px to match Figma. */
+  --text-display:        38px;  --lh-display: 41.8px; --ls-display: -0.95px;
+  --text-h1:             32px;  --lh-h1:      36.8px; --ls-h1:      -0.8px;
+  --text-h2:             30px;  --lh-h2:      36px;   --ls-h2:      -0.6px;
+  --text-body-lg:        14.5px;--lh-body-lg: 23.2px; --ls-body-lg:  0;
+  --text-body:           14px;  --lh-body:    21px;   --ls-body:     0;
+  --text-body-sm:        13px;  --lh-body-sm: 19.5px; --ls-body-sm:  0;
+  --text-caption:        12px;  --lh-caption: 18px;   --ls-caption:  0;
+  --text-micro:          11px;  --lh-micro:   16px;   --ls-micro:    0;
+  --text-overline:       10px;  --lh-overline:15px;   --ls-overline: 1px;   /* uppercase, mono */
+
+  /* ---------- TYPOGRAPHY · WEIGHTS ---------- */
+  --weight-regular:  400;
+  --weight-medium:   500;
+  --weight-semibold: 600;
+
+  /* ---------- SPACING (4px base) ---------- */
+  --space-0:  0;
+  --space-1:  2px;
+  --space-2:  4px;
+  --space-3:  6px;
+  --space-4:  8px;
+  --space-5:  12px;
+  --space-6:  16px;
+  --space-7:  24px;
+  --space-8:  32px;
+  --space-9:  48px;
+  --space-10: 64px;
+
+  /* component-specific spacing tuned to Figma values that don't fit the 4px grid */
+  --space-input-y:  11px;  /* input vertical padding */
+  --space-input-x:  14px;  /* input horizontal padding */
+  --space-row-y:    13px;  /* table row vertical padding */
+
+  /* ---------- RADII ---------- */
+  --radius-xs:   3px;
+  --radius-sm:   4px;
+  --radius-md:   6px;
+  --radius-lg:   8px;   /* default for buttons, inputs, tags */
+  --radius-xl:   10px;
+  --radius-2xl:  12px;  /* cards, large containers */
+  --radius-3xl:  16px;
+  --radius-pill: 999px; /* full pill */
+
+  /* ---------- BORDERS ---------- */
+  --border-1: 1px solid var(--color-border-subtle);
+  --border-1-soft: 1px solid var(--color-border-soft);
+
+  /* ---------- SHADOWS ---------- */
+  --shadow-xs: 0 1px 2px rgba(11, 26, 51, 0.04);                 /* cards, inputs */
+  --shadow-sm: 0 1px 2px rgba(11, 26, 51, 0.04), 0 1px 3px rgba(11, 26, 51, 0.06);
+  --shadow-md: 0 4px 8px rgba(11, 26, 51, 0.06), 0 2px 4px rgba(11, 26, 51, 0.04);
+  --shadow-lg: 0 12px 24px rgba(11, 26, 51, 0.10), 0 4px 8px rgba(11, 26, 51, 0.06);  /* popovers */
+  --shadow-floating: 0 16px 32px rgba(11, 26, 51, 0.18);          /* floating action bar */
+
+  /* ---------- LAYOUT ---------- */
+  --sidebar-w:      240px;
+  --topbar-h:       64px;
+  --container-max:  1200px;
+}
+
+/* base reset just enough for the prototype */
+*, *::before, *::after { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  font-family: var(--font-sans);
+  font-size: var(--text-body);
+  line-height: var(--lh-body);
+  color: var(--color-text-default);
+  background: var(--color-bg-page);
+  -webkit-font-smoothing: antialiased;
+}
