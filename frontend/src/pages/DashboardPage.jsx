@@ -537,7 +537,7 @@ export default function DashboardPage({
         )}
 
         {/* Human review panel — 3-tier confidence gate */}
-        {flags.length > 0 && (
+        {flags.length > 0 && humanReview.outcome === 'pending_review' && (
           <div id="human-review"><HumanReviewPanel
             flags={flags}
             runId={data.run_meta?.run_id}
