@@ -65,9 +65,34 @@ def is_audio_file(filename: str) -> bool:
     return Path(filename).suffix.lower() in AUDIO_EXTENSIONS
 
 
+@app.get("/")
+def root():
+    return {"status": "ok", "service": "RAAPID Sales Intelligence API"}
+
 @app.get("/api/health")
 def health():
-    return {"status": "ok"}
+    sb_url = os.environ.get("SUPABASE_URL")
+    sb_key = os.environ.get("SUPABASE_SERVICE_KEY")
+    supabase_configured = bool(sb_url and sb_key)
+    supabase_reachable = False
+    supabase_error = None
+    if supabase_configured:
+        try:
+            import urllib.request
+            req = urllib.request.Request(
+                f"{sb_url}/rest/v1/runs?limit=1",
+                headers={"apikey": sb_key, "Authorization": f"Bearer {sb_key}"},
+            )
+            with urllib.request.urlopen(req, timeout=5) as resp:
+                supabase_reachable = resp.status == 200
+        except Exception as e:
+            supabase_error = str(e)
+    return {
+        "status": "ok",
+        "supabase_configured": supabase_configured,
+        "supabase_reachable": supabase_reachable,
+        "supabase_error": supabase_error,
+    }
 
 
 def _supabase_request(method: str, path: str, params: dict = None):
